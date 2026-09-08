@@ -11,8 +11,8 @@ INSERT INTO Proizvod (Naziv, Cijena, Kolicina, KategorijaID) VALUES ('Mis', 25, 
 INSERT INTO Kupac (Ime, Prezime) VALUES ('Marko', 'Petrovic');
 INSERT INTO Kupac (Ime, Prezime) VALUES ('Ana', 'Jukic');
 
-INSERT INTO Narudzba (KupacID, Datum, Status) VALUES (1, '2025-12-01', 'Isporucena');
-INSERT INTO Narudzba (KupacID, Datum, Status) VALUES (2, '2025-12-10', 'Na cekanju');
+INSERT INTO Narudzba (KupacID, Datum, Status) VALUES (1, '2026-08-25', 'Isporucena');
+INSERT INTO Narudzba (KupacID, Datum, Status) VALUES (2, '2026-09-05', 'Isporucena');
 
 INSERT INTO Stavka (NarudzbaID, ProizvodID, Kolicina) VALUES (1, 1, 1);
 INSERT INTO Stavka (NarudzbaID, ProizvodID, Kolicina) VALUES (1, 3, 2);
